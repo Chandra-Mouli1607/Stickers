@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Sticker Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🎉 Funny Sticker Creator 🎉</h1>
+        <p>Make hilarious stickers in seconds!</p>
+    </header>
+    <main>
+        <div class="creator">
+            <div class="tools">
+                <label for="text">Add Funny Text:</label>
+                <input type="text" id="text" placeholder="e.g., 'Me after coffee'">
+                <label for="color">Pick Color:</label>
+                <input type="color" id="color" value="#FFB6C1">
+                <button id="addText">Add Text</button>
+                <button id="download">Download Sticker</button>
+            </div>
+            <canvas id="stickerCanvas" width="300" height="300"></canvas>
+        </div>
+    </main>
+    <footer>
+        <p>Built with ❤️ for laughs</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
